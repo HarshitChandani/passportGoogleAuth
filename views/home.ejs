@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Express • TodoMVC</title>
-   <link rel="stylesheet" href="/css/base.css">
-   <link rel="stylesheet" href="/css/index.css">
-   <link rel="stylesheet" href="/css/home.css">
-</head>
-
 <body>
-   <section>
-      <a class="button" href="/LoginPage">Sign in</a>
+   <section class="todohome">
+      Hello <b>
+         <%= userDisplayName%>
+      </b>
+      ,
+      This is protected route.
    </section>
+   <a role="button" href="/auth/logout">Logout</a>
 </body>
 
 </html>

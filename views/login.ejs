@@ -22,6 +22,23 @@
          <!-- <a class="button" href="/login/google">Login with google</a> -->
          <a class="btn-warning btn" role="button" href="/login/google">Login with google</a>
       </section>
+      <section class="mx-3 my-3">
+         <form action="/login/manual" method="post">
+            <div class="form-group my-1">
+               <label for="username">Username</label>
+               <input type="text" class="form-control" name="username" id="username" aria-describedby="helpId"
+                  placeholder="Username">
+            </div>
+            <div class="form-group my-1">
+               <label for="password">Password</label>
+               <input type="password" class="form-control" name="password" id="password" aria-describedby="helpId"
+                  placeholder="Password">
+            </div>
+            <div class="form-group my-1">
+               <button type="submit" class="btn btn-outline-primary">Login</button>
+            </div>
+         </form>
+      </section>
    </section>
 </body>
 
